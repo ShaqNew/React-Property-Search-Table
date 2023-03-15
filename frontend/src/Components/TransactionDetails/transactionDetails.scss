@@ -1,0 +1,11 @@
+.transactionsTable{
+        display: block;
+        overflow: hidden;
+    &__head {
+        background-color: #28944787
+    }
+}
+
+td {
+    width: 10%;
+}
