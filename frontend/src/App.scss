@@ -14,6 +14,9 @@
     position: relative;
     top: 300px;
   }
+  &__heading {
+    position: absolute;
+  }
 }
 
 .app__welcomeMessage {

@@ -12,6 +12,7 @@ function App() {
 
   return (
     <div className="App" data-testid="app">
+        <h1 className="App__heading">Property Search Table</h1>
         <UserSearch setPropertyData={setPropertyData} setIsLoading={setIsLoading}/>
         {
           !isLoading && !propertyData.length ? 
